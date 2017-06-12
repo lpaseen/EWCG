@@ -1,0 +1,13 @@
+From
+https://books.google.ca/books?id=VlC5MkVIwqkC&pg=PA258&lpg=PA258&dq=triton+bigram+tables&source=bl&ots=5gjVrCHAig&sig=pL6YrzZPZLC8sEjQBWqP021xRbw&hl=sv&sa=X&ved=0ahUKEwiZt72-4dvQAhVZImMKHVoLBJgQ6AEINjAD#v=onepage&q=triton%20bigram%20tables&f=false
+
+"The essential turing", B.Jack Copeland - editor. first published 2004.
+isbn 0-19-825079-7
+isbn 0-19-825080-0  (pbk.)
+
+page 258
+
+"Enigma operators where issued with a set of nine complete tables, each table giving substitution for all the 676 possible bigrams. 
+Which table to be used on any given day was set out in a calendar issued with the tables. New set of tables came into force periodically."
+ref: Alexander, 'Cryptographic History of Work on the German Naval Enigma
+

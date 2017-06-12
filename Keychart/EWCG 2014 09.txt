@@ -1,0 +1,38 @@
+
+ GEHEIM!                            EWCG 2014                            SEPTEMBER 2014
+
+ --------------------------------------------------------------------------------------
+ |Tag |   Walzenlage   |Ringstellung|      Steckerverbindungen      |   Kenngruppen   |
+ --------------------------------------------------------------------------------------
+ | 30 | IV   III  V    |  05 05 08  | BM CF DO EG HJ IP KZ NS QT XY | LEE FAX OKO FLU |
+ | 29 | III  IV   I    |  17 22 15  | AQ BS CD EH FW GY JZ KV LU NX | HQB QYR GJZ AGW |
+ | 28 | II   III  I    |  25 12 21  | AD BQ CJ EV FM GO HR IU KW SY | FTO UJB LZM BBS |
+ | 27 | V    I    IV   |  08 15 07  | BM CX DH EO FJ KW LU NT QR YZ | TRQ ZTV SFW OWC |
+ | 26 | IV   II   III  |  24 22 04  | AJ BQ EI FH GN KT LP MU OR WX | WEV IDJ NWY XEA |
+ | 25 | I    III  V    |  26 23 16  | AS EH FO GP JM KZ LQ NW RV TX | OQL ZSV HKW OAA |
+ | 24 | V    IV   I    |  14 19 16  | BX CN DW EM FR GY HU IL JP TZ | PRE UFG ORZ VHM |
+ | 23 | IV   II   III  |  11 15 09  | AE BG CJ DH FS IZ KQ MT PY RV | RHN RDR FKP KUP |
+ | 22 | IV   V    II   |  03 24 02  | AI BD CH EM FN GR KQ PT VW XZ | ZNS FZT OFQ BZC |
+ | 21 | V    III  I    |  17 03 09  | AE CP FK HW IY JS NR OZ QT UX | DAY NFM QPV NHN |
+ | 20 | IV   II   I    |  04 18 25  | BX CR DE FN GO JW KV LP MY ST | CAG GDC URB EMD |
+ | 19 | II   I    IV   |  02 22 12  | AD BX CL EU FN GO IT KR SV WY | UVH YVU RLQ UNJ |
+ | 18 | IV   V    III  |  24 14 04  | AI BX CJ FY GU HO KP LS MN RV | EUG SUG IEI ZDC |
+ | 17 | V    II   III  |  12 14 02  | AZ BU CP DX FQ KW MV NT OS RY | LZR HZZ CAA WXN |
+ | 16 | I    II   V    |  26 21 13  | CP DQ EW FM GN HR IZ JT LX UY | VYP JAN BZK NIH |
+ | 15 | II   III  IV   |  05 07 10  | BH EW FP IT JS KX LO MZ NR QY | JPN ZDU RNQ ARR |
+ | 14 | III  II   IV   |  19 09 24  | AP BK CR DZ FN GO IJ MU QT VY | ZZK IOX ZOE JAR |
+ | 13 | III  IV   V    |  04 09 24  | CT DS EF GO HR JX KP LY MN WZ | DNA OXP IPN AIU |
+ | 12 | IV   V    II   |  18 21 12  | AU BN DX ES HM IJ LW PY RV TZ | OQL USF QPJ QRX |
+ | 11 | III  V    I    |  09 03 01  | AO BI CX DR FJ GP HS LT NQ YZ | BEQ YPQ KOB JAK |
+ | 10 | IV   II   I    |  13 23 21  | AR CS DH EP FV GQ KM TW UX YZ | NJD KJV QEL YZP |
+ | 09 | I    III  II   |  06 05 21  | AO BE CL DR FS JQ KN PT UZ XY | ZYN HRV AKN QTY |
+ | 08 | V    I    II   |  20 01 06  | AW BM CY EQ FS GR IN JL KT OP | UCK UCR KXM FPY |
+ | 07 | V    III  II   |  18 24 17  | AN BH CP DU EX FI JT LQ MS OY | KUS VIY XVY PUZ |
+ | 06 | II   V    IV   |  11 03 23  | AR BP CG EI FT HO JN KS LQ WY | NOV LHU WSV SRN |
+ | 05 | V    IV   I    |  10 10 13  | AC DI ES FP GW HR JM NT QX VZ | KEH UBI WDW HSI |
+ | 04 | II   I    IV   |  06 08 13  | BR CY DJ EH FK GN IS OT PW VZ | GON QBT MKB CPZ |
+ | 03 | I    II   III  |  23 01 03  | BE CK DY FQ HV IR LT MU NO SZ | OFC QMZ QTB ILF |
+ | 02 | III  V    II   |  23 16 13  | AC BZ EW GM HO IL JX KQ NS UV | KNF XLC XWP TPU |
+ | 01 | I    II   V    |  05 10 18  | AX DM EI FY HP KU LO QV RT SZ | KWR SMW JUX WVN |
+ --------------------------------------------------------------------------------------
+

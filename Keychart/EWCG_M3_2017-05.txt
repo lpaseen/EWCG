@@ -1,0 +1,38 @@
+[EWCG2017]                            Enigma model M3                             May 2017
+                      generated on http://meinenigma.com/keychart.php                       
+--------------------------------------------------------------------------------------------
+|Day |UKW|    rotors      | Ringsetting |           Plugboard            |     keygroup    |
+--------------------------------------------------------------------------------------------
+| 31 | B | I    V    VIII |  13 08 10   | BJ CS DI EQ FT GX KP LV NY UZ  | SZQ QEW HXL HHG |
+| 30 | B | IV   III  II   |  23 17 05   | AQ BR DE GK IT JS MY NP UV WZ  | LHV CKV LBC EZP |
+| 29 | C | I    VIII VI   |  14 13 21   | BH CG DK EX IZ JU LM NP QR TV  | GTC WRS BYH YWP |
+| 28 | B | V    IV   I    |  26 15 06   | AJ BX EV FM GI HW LO NZ QU ST  | YEY IYP MLA MPA |
+| 27 | B | V    IV   VIII |  16 20 22   | AL CU ET FR GW HY IP JZ KO SV  | GZG KPK OOX XXR |
+| 26 | B | VI   V    VII  |  22 09 19   | AQ BD CU HP IM KL NY RZ SV TX  | UVJ LXK SCH RRD |
+| 25 | B | IV   I    V    |  17 25 02   | AX CY DM EU FW GZ HI LT NQ PR  | JQN FVZ LQB PCB |
+| 24 | C | V    VII  VI   |  21 03 08   | BR CD EL FJ GZ HU IN MO QT WY  | SYP OLY XCU NZG |
+| 23 | C | IV   VIII III  |  02 01 12   | AC BN DW ER FQ JU KO MX PY TV  | INY RYS NGD CWA |
+| 22 | C | V    IV   II   |  09 07 14   | AI DT EM FP HV JQ KL OZ RW SU  | IOM ACS GQL AVG |
+| 21 | C | V    VII  IV   |  05 16 06   | AR BP CF DZ GY HX KS MU NT OV  | VGE HFR VXV HZA |
+| 20 | C | II   III  IV   |  17 20 08   | AB CR DX EY FW IZ JU KL PQ ST  | XWQ SUL YMD QQN |
+| 19 | C | I    VI   III  |  16 11 04   | BH CW DK EM GT IO JZ LU QY RX  | ZQU QXU HCG KCQ |
+| 18 | B | III  IV   VII  |  14 22 11   | AI CW DX EK FZ HT JY NV OU RS  | GEM BHS GHH OCF |
+| 17 | C | VI   V    VIII |  10 05 20   | BY CP FJ GN HM KR LX OS TZ VW  | RSO NAB YRA OUZ |
+| 16 | B | VII  VI   II   |  20 09 21   | AZ BD CX FO GK HL IQ JN SW UV  | YAN MKG ZQA ZLK |
+| 15 | C | I    V    VII  |  15 22 18   | AK BR CF DS GH IM JQ LO PW VZ  | SKT TVK CRD USA |
+| 14 | C | VIII VII  IV   |  02 26 01   | AQ BU CP EX FL GI JK NT RV WY  | OJU OUY SOV SAP |
+| 13 | B | IV   VI   II   |  04 15 14   | BV DG FN HY IJ KT LW MZ OQ PR  | SEH EQC ELL ZCS |
+| 12 | C | VII  II   IV   |  11 23 10   | AP DH EM FQ GR IU KV LY NT OS  | CLQ VNY MEM KIG |
+| 11 | C | I    II   IV   |  08 05 19   | AB CO DY FW GJ HV KN MP SU XZ  | KCB FBG PDI XQH |
+| 10 | C | V    VII  VI   |  15 10 17   | AQ DK EW GU HT IN LZ OR PS VY  | ONJ CDO OYC TVJ |
+|  9 | B | I    V    VI   |  14 25 09   | AF BC DG HS IX JK MR NV PZ WY  | JHL MZA OGL RCP |
+|  8 | C | I    IV   V    |  12 19 26   | AJ BC DI FS KY LV MP NU OW TX  | EEZ BNI ZOB PJA |
+|  7 | B | II   III  I    |  07 06 03   | AY BP CD GN KU LR MS OQ TV WX  | DCA MYD JHZ JZH |
+|  6 | B | IV   III  VIII |  09 11 06   | BY DK EP FJ HM LN QS RZ TV UX  | MPE EDO ULR MDE |
+|  5 | B | VII  II   III  |  13 15 07   | AB CI DO EQ FR GJ KV LN PZ TW  | IQD SIZ IBF AFW |
+|  4 | B | IV   VII  VIII |  25 17 23   | AG BN EK FI HR LT MX OZ QV UW  | XZU DZH JCH YMR |
+|  3 | B | VIII I    V    |  18 22 01   | BM CZ DJ EL FY GS IU KW OX PT  | HTI KBS CFA YCT |
+|  2 | C | II   VIII V    |  14 22 10   | AP BZ FR GS IL JW KM NT UV XY  | VQS SVY RZM KRQ |
+|  1 | B | VIII I    VII  |  05 25 19   | BC DS FJ GM IQ KV LO NY PZ RW  | HAK KGV VUM SQY |
+--------------------------------------------------------------------------------------------
+

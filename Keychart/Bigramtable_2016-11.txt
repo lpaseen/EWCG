@@ -1,0 +1,53 @@
+<HTML>
+<HEADER>
+<TITLE>
+enigma keysheet generator
+</TITLE>
+</HEADER>
+<BODY>
+<H1>Bigram table</H1>
+<br>
+Instructions:<br>
+<ol>
+<li>Look at the top of any column.  For example: EA = MY.</li>
+<li>For all of the other entries in this column, the beginning letter "E" is not there.  It is reasoned that the user can understand that the "E" is supposed to be written there for each entry, but has been left out to prevent needless repetition.<br>EB = JI,        EC = LT and so on.</li>
+<li>When you are looking up a bigram, use the top line first to locate the first letter in the bigram.<br>
+Next read down the column to find the second letter of the bigram and its equivalent bigram.</li>
+<li>The bigrams are reciprocal. The bigram for EA is MY. The bigram for MY is EA.</li></ol>
+<br>
+<pre>
+AA=>NA  BA=>TB  CA=>UO  DA=>IQ  EA=>MY  FA=>ME  GA=>MF  HA=>BT  IA=>MO  JA=>YG  KA=>LL  LA=>WX  MA=>BR  NA=>AA  OA=>RV  PA=>XE  QA=>SU  RA=>DN  SA=>UD  TA=>KY  UA=>NP  VA=>HZ  WA=>LP  XA=>JS  YA=>YA  ZA=>OE  
+ B=>FT   B=>WD   B=>DU   B=>XZ   B=>JI   B=>TY   B=>XP   B=>OT   B=>GR   B=>JP   B=>ZI   B=>CV   B=>WK   B=>FJ   B=>XW   B=>HD   B=>NJ   B=>NR   B=>YE   B=>BA   B=>AM   B=>XT   B=>VS   B=>OM   B=>YP   B=>SO  
+ C=>KQ   C=>EY   C=>WS   C=>TK   C=>LT   C=>DK   C=>MX   C=>HC   C=>IP   C=>UF   C=>CY   C=>YJ   C=>VJ   C=>DV   C=>PQ   C=>FM   C=>PG   C=>QV   C=>FW   C=>CD   C=>EU   C=>VC   C=>WW   C=>MQ   C=>VN   C=>FO  
+ D=>SF   D=>TX   D=>TC   D=>TH   D=>IX   D=>UH   D=>OH   D=>PB   D=>CW   D=>GO   D=>TS   D=>ZO   D=>PD   D=>DT   D=>SY   D=>MD   D=>CT   D=>QX   D=>EQ   D=>BP   D=>SA   D=>XU   D=>BB   D=>KO   D=>BS   D=>IM  
+ E=>FY   E=>ZK   E=>ML   E=>MR   E=>RF   E=>US   E=>UJ   E=>IZ   E=>EF   E=>KH   E=>AG   E=>IL   E=>FA   E=>CP   E=>ZA   E=>UV   E=>YH   E=>AK   E=>MM   E=>DO   E=>LM   E=>ON   E=>FX   E=>PA   E=>SB   E=>KP  
+ F=>IF   F=>BF   F=>ZU   F=>CX   F=>IE   F=>EO   F=>ZY   F=>AR   F=>AF   F=>DM   F=>HP   F=>LF   F=>GA   F=>WN   F=>TO   F=>YV   F=>UX   F=>EE   F=>AD   F=>EZ   F=>JC   F=>BM   F=>ES   F=>QH   F=>EX   F=>AZ  
+ G=>KE   G=>DR   G=>KZ   G=>FS   G=>VT   G=>VO   G=>XJ   G=>XX   G=>DS   G=>VU   G=>SI   G=>CM   G=>RQ   G=>IT   G=>EL   G=>QC   G=>RG   G=>QG   G=>FQ   G=>LV   G=>IK   G=>HT   G=>HI   G=>FK   G=>JA   G=>II  
+ H=>SJ   H=>TT   H=>HR   H=>BX   H=>OW   H=>AQ   H=>HU   H=>NI   H=>PX   H=>GX   H=>JE   H=>FR   H=>LN   H=>VY   H=>GD   H=>AP   H=>XF   H=>YX   H=>CI   H=>DD   H=>FD   H=>UW   H=>AY   H=>JW   H=>QE   H=>JZ  
+ I=>TN   I=>DW   I=>SH   I=>SM   I=>JJ   I=>XY   I=>QJ   I=>WG   I=>ZG   I=>EB   I=>KT   I=>DQ   I=>LY   I=>HH   I=>TP   I=>IO   I=>XL   I=>AO   I=>KG   I=>LW   I=>OU   I=>YY   I=>NQ   I=>NV   I=>CR   I=>KB  
+ J=>ZX   J=>HQ   J=>WY   J=>JO   J=>JU   J=>NB   J=>ZJ   J=>KX   J=>UP   J=>EI   J=>WJ   J=>WO   J=>NZ   J=>QB   J=>AN   J=>NT   J=>GI   J=>ER   J=>AH   J=>MU   J=>GE   J=>MC   J=>KJ   J=>GG   J=>LC   J=>GJ  
+ K=>RE   K=>HW   K=>CK   K=>FC   K=>BY   K=>XG   K=>TM   K=>SN   K=>UG   K=>WM   K=>JM   K=>IU   K=>VW   K=>ZT   K=>LU   K=>RS   K=>TR   K=>HL   K=>WU   K=>DC   K=>QT   K=>NL   K=>MB   K=>GT   K=>VZ   K=>BE  
+ L=>ZN   L=>PP   L=>OP   L=>LQ   L=>OG   L=>SR   L=>LX   L=>RK   L=>LE   L=>BZ   L=>NM   L=>KA   L=>CE   L=>VK   L=>ZP   L=>FZ   L=>UR   L=>IS   L=>UM   L=>BO   L=>BU   L=>NX   L=>GU   L=>QI   L=>YL   L=>JY  
+ M=>UB   M=>VF   M=>LG   M=>JF   M=>ZQ   M=>PC   M=>TW   M=>WT   M=>ZD   M=>KK   M=>VX   M=>UE   M=>SE   M=>KL   M=>XB   M=>ZW   M=>WP   M=>KV   M=>DI   M=>GK   M=>SL   M=>DY   M=>JK   M=>OV   M=>NU   M=>KU  
+ N=>OJ   N=>YZ   N=>WZ   N=>RA   N=>UY   N=>FN   N=>SS   N=>LS   N=>UZ   N=>EV   N=>GY   N=>MH   N=>FP   N=>AT   N=>VE   N=>XR   N=>GW   N=>KS   N=>HK   N=>AI   N=>QQ   N=>YC   N=>NF   N=>QY   N=>JT   N=>AL  
+ O=>RI   O=>TL   O=>MW   O=>TE   O=>FF   O=>ZC   O=>JD   O=>ZR   O=>PI   O=>DJ   O=>XD   O=>ZZ   O=>IA   O=>RX   O=>BQ   O=>JV   O=>YW   O=>OQ   O=>ZB   O=>OF   O=>CA   O=>FG   O=>LJ   O=>AV   O=>AS   O=>LD  
+ P=>PH   P=>TD   P=>NE   P=>YS   P=>HS   P=>MN   P=>RR   P=>KF   P=>IC   P=>JB   P=>ZE   P=>WA   P=>MP   P=>UA   P=>CL   P=>BL   P=>RZ   P=>GZ   P=>XS   P=>OI   P=>IJ   P=>OR   P=>QM   P=>GB   P=>YB   P=>OL  
+ Q=>FH   Q=>OO   Q=>IW   Q=>LI   Q=>SD   Q=>SG   Q=>KR   Q=>BJ   Q=>DA   Q=>YT   Q=>AC   Q=>DL   Q=>XC   Q=>WI   Q=>RO   Q=>OC   Q=>UN   Q=>MG   Q=>MT   Q=>NS   Q=>FV   Q=>WV   Q=>PR   Q=>QZ   Q=>YQ   Q=>EM  
+ R=>HF   R=>MA   R=>YI   R=>BG   R=>RJ   R=>LH   R=>IB   R=>CH   R=>QS   R=>YR   R=>GQ   R=>ZS   R=>DE   R=>RB   R=>VP   R=>WQ   R=>WR   R=>GP   R=>FL   R=>QK   R=>QL   R=>VV   R=>QR   R=>PN   R=>JR   R=>HO  
+ S=>YO   S=>YD   S=>DZ   S=>IG   S=>WF   S=>DG   S=>UT   S=>EP   S=>RL   S=>XA   S=>RN   S=>HN   S=>UU   S=>TQ   S=>MV   S=>PS   S=>IR   S=>PK   S=>GN   S=>KD   S=>FE   S=>WB   S=>CC   S=>SP   S=>DP   S=>LR  
+ T=>NN   T=>HA   T=>QD   T=>ND   T=>SW   T=>AB   T=>XK   T=>VG   T=>NG   T=>YN   T=>KI   T=>EC   T=>SQ   T=>PJ   T=>HB   T=>RT   T=>UK   T=>PT   T=>AW   T=>BH   T=>GS   T=>EG   T=>HM   T=>VB   T=>JQ   T=>NK  
+ U=>LZ   U=>UL   U=>DX   U=>CB   U=>UC   U=>IY   U=>WL   U=>GH   U=>LK   U=>EJ   U=>ZM   U=>OK   U=>TJ   U=>YM   U=>UI   U=>RU   U=>HX   U=>PU   U=>QA   U=>NW   U=>MS   U=>JG   U=>SK   U=>VD   U=>AX   U=>CF  
+ V=>XO   V=>HV   V=>LB   V=>NC   V=>JN   V=>UQ   V=>TZ   V=>BV   V=>PV   V=>PO   V=>RM   V=>TG   V=>OS   V=>XI   V=>XM   V=>IV   V=>RC   V=>OA   V=>SV   V=>EW   V=>PE   V=>VR   V=>VQ   V=>XV   V=>PF   V=>OY  
+ W=>ST   W=>BW   W=>ID   W=>BI   W=>TV   W=>SC   W=>QN   W=>BK   W=>CQ   W=>XH   W=>MZ   W=>TI   W=>CO   W=>TU   W=>EH   W=>RY   W=>HY   W=>NY   W=>ET   W=>GM   W=>VH   W=>MK   W=>WC   W=>OB   W=>QO   W=>PM  
+ X=>YU   X=>DH   X=>DF   X=>CU   X=>YF   X=>WE   X=>JH   X=>QU   X=>ED   X=>PZ   X=>HJ   X=>GL   X=>GC   X=>VL   X=>PY   X=>IH   X=>RD   X=>NO   X=>OZ   X=>BD   X=>QF   X=>KM   X=>LA   X=>HG   X=>RH   X=>AJ  
+ Y=>WH   Y=>EK   Y=>KC   Y=>VM   Y=>BC   Y=>AE   Y=>KN   Y=>QW   Y=>FU   Y=>ZL   Y=>TA   Y=>MI   Y=>EA   Y=>RW   Y=>ZV   Y=>OX   Y=>XN   Y=>PW   Y=>OD   Y=>FB   Y=>EN   Y=>NH   Y=>CJ   Y=>FI   Y=>VI   Y=>GF  
+ Z=>ZF   Z=>JL   Z=>CZ   Z=>CS   Z=>TF   Z=>PL   Z=>RP   Z=>VA   Z=>HE   Z=>ZH   Z=>CG   Z=>AU   Z=>KW   Z=>MJ   Z=>SX   Z=>JX   Z=>XQ   Z=>QP   Z=>SZ   Z=>GV   Z=>IN   Z=>YK   Z=>CN   Z=>DB   Z=>BN   Z=>LO  
+</pre>
+<br>
+Generated from http://meinEnigma.com/bigramTable.php?seed=946878907<br>
+<br>
+Back to <a href="keychart.php">keychart generation page</a> http://meinEnigma.com/keychart.php<br>
+<br>
+Back to <a href="http://meinEnigma.com/">meinEnigma home page</a> http://meinEnigma.com/<br>
+<br>
+</body></html>

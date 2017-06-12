@@ -1,0 +1,35 @@
+GEHEIM!                              U571                               DEZEMBER 1944
+-----------------------------------------------------------------------------------------------------------
+|  Tag |    Walzenlage   | Ringstellung |           Steckerverbindungen            |  Kenngruppen         |
+-----------------------------------------------------------------------------------------------------------
+|  31  |  II   III  IV   |  20  04  05  |  AO  BQ  CL  EH  FT  GZ  IM  JV  KR  PW  |  EYF  KVV  GOV  SML  |
+|  30  |  IV   I    II   |  08  25  23  |  AB  CK  DG  FQ  HV  IR  LM  OT  SU  YZ  |  LOD  CWL  GQR  XIC  |
+|  29  |  II   V    IV   |  06  10  06  |  BV  CN  DM  EG  FU  HZ  JY  OP  QX  TW  |  GON  OUD  HWA  HTE  |
+|  28  |  III  II   I    |  16  02  11  |  AE  BN  CM  DS  GW  HP  IX  OT  QR  VY  |  UGG  DHF  GYA  BYE  |
+|  27  |  II   I    III  |  09  08  06  |  AW  BR  DQ  EP  FM  GN  HK  LX  SV  TZ  |  ZXG  IFD  YLW  QFE  |
+|  26  |  V    IV   III  |  17  23  08  |  AP  BO  CJ  EL  FU  IT  KS  MZ  VW  XY  |  BVJ  IAW  QKK  IOX  |
+|  25  |  II   III  IV   |  06  15  15  |  AJ  BM  CT  EU  HK  IQ  LP  NY  RZ  VX  |  WBW  YCS  DRP  QLV  |
+|  24  |  II   V    I    |  16  05  02  |  AD  BL  CF  EY  GR  HW  IX  KS  MT  PZ  |  XOU  FXP  WXL  GKE  |
+|  23  |  II   V    IV   |  10  10  23  |  AU  BE  CY  FK  GS  HO  IM  NP  QW  RV  |  XFU  DPU  TPN  HQZ  |
+|  22  |  II   IV   III  |  26  26  20  |  AG  BR  DX  HV  JY  KO  LT  MZ  NW  QS  |  NDA  BDQ  SWL  YPC  |
+|  21  |  II   III  V    |  17  08  18  |  AP  BZ  CU  EY  FM  IQ  JX  KL  OV  RS  |  ATL  BVM  VJW  CJG  |
+|  20  |  I    IV   III  |  03  06  24  |  BU  CN  DT  ES  FG  HK  IM  OY  PR  WZ  |  FZQ  VVR  IQE  RNR  |
+|  19  |  II   III  I    |  01  26  11  |  AL  BS  CP  EU  GX  HR  IV  JW  KY  NT  |  AMG  FQW  ZVR  IEX  |
+|  18  |  V    III  I    |  14  11  11  |  AO  BJ  DQ  EV  FT  GR  HI  KP  MN  WY  |  FCD  XEC  VFJ  OUQ  |
+|  17  |  III  V    II   |  11  02  25  |  AM  CH  DJ  EO  FR  GT  KX  LQ  NY  PW  |  CGC  FOI  ZMF  GOU  |
+|  16  |  III  V    II   |  08  06  23  |  BJ  CY  DX  EZ  FH  GO  LN  MW  QV  TU  |  GQP  CKK  BVD  RGO  |
+|  15  |  III  II   IV   |  01  09  13  |  AW  BF  CN  EP  GT  HR  JZ  KL  QX  VY  |  IGM  BRN  XDV  JRJ  |
+|  14  |  V    II   III  |  13  16  03  |  AE  BZ  DK  FY  GS  HT  IO  JP  LW  NQ  |  SYY  WYX  HKY  IAQ  |
+|  13  |  I    IV   V    |  05  02  26  |  AW  BM  CV  DR  EH  FU  GO  IX  QY  SZ  |  VRE  EQZ  ESR  JXF  |
+|  12  |  III  I    V    |  22  03  17  |  AU  BT  CI  DL  EG  FX  JV  MQ  NY  SW  |  YPQ  WRI  GCX  YNA  |
+|  11  |  I    IV   II   |  05  10  05  |  AT  BE  CY  DM  FQ  GS  HU  JW  KO  LX  |  EHT  JGD  ZMO  OCC  |
+|  10  |  V    II   IV   |  08  16  17  |  AX  CT  DS  FI  JN  LY  MW  PR  QZ  UV  |  PDK  CZH  GVE  UZK  |
+|  09  |  V    I    III  |  02  22  07  |  BY  DZ  EU  FV  HT  KP  LQ  MR  NO  SX  |  GYH  GYY  SIC  POK  |
+|  08  |  II   IV   I    |  10  20  14  |  AG  BC  DL  EQ  HI  JM  KW  NT  PZ  RV  |  LWY  OGQ  SJM  AEG  |
+|  07  |  III  IV   II   |  03  05  08  |  BJ  CD  EF  GL  HN  IR  MT  OV  QS  UY  |  BVG  EPL  UTM  KFO  |
+|  06  |  I    V    II   |  17  12  09  |  AU  BO  EN  FQ  HK  JT  LZ  MR  PV  WY  |  QHF  PCB  JWK  EFE  |
+|  05  |  II   V    I    |  04  19  02  |  BW  CY  DH  EI  GR  JU  KV  LN  MP  OT  |  QYL  VHT  YSU  XQQ  |
+|  04  |  III  II   I    |  22  03  15  |  AN  CD  EX  FU  HW  IK  JS  MT  PR  VY  |  TDY  DLU  EKG  XMR  |
+|  03  |  V    III  I    |  04  12  21  |  AM  BG  CI  DS  EU  FJ  HY  KT  PR  QX  |  KRH  HWP  VVY  UBU  |
+|  02  |  II   III  IV   |  12  25  05  |  AJ  CQ  DZ  EK  HR  IW  LT  MU  OP  VY  |  HFW  OLZ  YBT  WJB  |
+|  01  |  III  I    V    |  22  23  21  |  AR  BG  CT  DZ  EK  IX  JN  MQ  PV  SY  |  MZK  UQX  TSW  MQP  |
