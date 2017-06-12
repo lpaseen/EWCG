@@ -10,6 +10,7 @@ Disclaimer: It has bugs so don't blindly accept the output, verify that it
 looks resonable. This is specially important for odd cases or when you getting
 keys for days other than today.
 
+```
 Usage:
 ================================================================
 # On it's own it will prep the start of a new message
@@ -144,4 +145,4 @@ KG=NMS
 
 !PLUGB: AO BN CR DM EH FY JU KX PZ QV
 !START:ECVG
-
+```
