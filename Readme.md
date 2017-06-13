@@ -119,7 +119,7 @@ echo "  "|tr -dc '[a-zA-Z]'|sed 's/.\{72,72\}/&\n/g';echo
 
 echo "  "|tr -dc '[a-zA-Z]'|sed 's/.\{4,4\}/&\n/g'|xargs -n10
 ================================================================
-#Or with the they first two groups - BUG/TOFIX, this only works for current month!
+#Or with the they first two groups for current month
 ./GenKeyM4.sh KSCT VUME
 KS=>MD
 CT=>NN
@@ -145,4 +145,25 @@ KG=NMS
 
 !PLUGB: AO BN CR DM EH FY JU KX PZ QV
 !START:ECVG
+================================================================
+#if for some other month you need to state what month it might be
+./GenKeyM4.sh  2017-04 WPGE EDDY
+
+================================================================
+# short help is available with -h
+./GenKeyM4.sh -h
+Usage:
+ /home/peters/bin/GenKeyM4.sh -h
+      this help
+
+ /home/peters/bin/GenKeyM4.sh tomorrow
+ /home/peters/bin/GenKeyM4.sh 2017-06-10
+        to get key for some other day than today
+
+ /home/peters/bin/GenKeyM4.sh 2017-07 grp1 grp2
+        find key for a msg using bigramtable for 2017-07
+
+ /home/peters/bin/GenKeyM4.sh grp1 grp2
+        find key for a msg using current months bigram table
+
 ```
