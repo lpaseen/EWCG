@@ -48,13 +48,14 @@ if [ "${#1}" == "3" ];then
 	exit
     fi
 else
-    WHEN=${1:-now}
+    [ -n "$1" ] && WHEN="$1" || WHEN="now -u"
 fi
 
-YEAR="$(date -d $WHEN +"%Y")"
-MONTH="$(date -d $WHEN +"%m")"
-DAY="$(date -d $WHEN +"%d")"
-day="$(date -d $WHEN +"%e")"
+
+YEAR="$(eval date -d $WHEN +"%Y")"
+MONTH="$(eval date -d $WHEN +"%m")"
+DAY="$(eval date -d $WHEN +"%d")"
+day="$(eval date -d $WHEN +"%e")"
 
 if [ $YEAR -ge 2017 ];then
     Key="$(grep -s "|  *$day  *|" ${BASEPATH}/"EWCG_M3_$YEAR-$MONTH.txt")"
@@ -92,7 +93,7 @@ KG=${KennGroup[$(($RANDOM%4))]}
 
 FG=$(echo -e "$KG\x$(printf "%0x" $(($RANDOM%26+65)))\x$(printf "%0x" $(($RANDOM%26+65)))")
 
-echo "# $(date +%F -d$WHEN)"
+echo "# $(eval date +%F -d$WHEN)"
 echo "!Group:5"
 echo "!Model:M3"
 echo "!UKW:$UKW"

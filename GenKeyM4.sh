@@ -41,12 +41,12 @@ elif [ -n "$1" ] && date -d "$1" &>/dev/null;then
     WHEN="$1"
     shift
 else
-    WHEN="now"
+    WHEN="now -u"
 fi
 
-YEAR=$(date -d "$WHEN" +%Y)
-YM=$(date -d "$WHEN" +%Y-%m)
-DAY=$(date -d "$WHEN" +%e|tr -d ' ')
+YEAR=$(eval date -d "$WHEN" +%Y)
+YM=$(eval date -d "$WHEN" +%Y-%m)
+DAY=$(eval date -d "$WHEN" +%e|tr -d ' ')
 
 BGT=$BASEPATH/Keychart/Bigramtable_${YM}
 M4TABLE=$BASEPATH/Keychart/EWCG_keysheet_M4_${YM}.txt
@@ -105,8 +105,8 @@ if [ "${#2}" -eq 4 ];then
 	exit 3
     fi
     WHEN="$YM-$DAY"
-    YEAR=$(date -d "$WHEN" +%Y)
-    YM=$(date -d "$WHEN" +%Y-%m)
+    YEAR=$(eval date -d "$WHEN" +%Y)
+    YM=$(eval date -d "$WHEN" +%Y-%m)
 else
     KG=$(cat $M4TABLE|awk -F\| '$3=='$DAY' {print $2}'|head -1|tr '[:lower:]' '[:upper:]'|tr -d ' ')
     MK="$(echo $(($RANDOM%26+65)) $(($RANDOM%26+65)) $(($RANDOM%26+65))|awk '{printf "%c%c%c",$1,$2,$3}')"
@@ -187,7 +187,7 @@ if [ ${#KG} -eq 3 ];then
     done
 
     if [ "$KGI"=="$KGO" -a "$DAYI"=="$DAYO" ];then    
-	echo "#$(date -d "$WHEN" +%Y-%m)"
+	echo "#$(eval date -d "$WHEN" +%Y-%m)"
 	echo "#DAY=$DAYO"
 	echo "!GROUP:4"
 	echo "!MODEL:M4"
