@@ -11,6 +11,7 @@
 #
 
 BASEPATH=$(dirname $(readlink -f $0))
+FLK=false
 
 
 if [ "$1" == "-h" -o "$1" == "-?" ];then
@@ -27,7 +28,15 @@ if [ "$1" == "-h" -o "$1" == "-?" ];then
     echo
     echo " $0 grp1 grp2"
     echo "	find key for a msg using current months bigram table"
+    echo
+    echo " $0 -4 grp1 grp2"
+    echo "	use 4 letter message key"
     exit;
+fi
+
+if [ "$1" == "-4" ];then
+    FLK=true
+    shift
 fi
 
 P1="$1"
@@ -92,13 +101,19 @@ if [ "${#2}" -eq 4 ];then
     done
     echo
     KG=${BG[1]:0:1}${BG[2]:0:1}${BG[3]:0:1}
-    MK=${BG[0]:1:1}${BG[1]:1:1}${BG[2]:1:1}
     echo "first part : $(echo ${BG[0]:0:1}|tr '[:upper:]' '[:lower:'])${BG[1]:0:1}${BG[2]:0:1}${BG[3]:0:1}"
-    echo "second part: ${BG[0]:1:1}${BG[1]:1:1}${BG[2]:1:1}$(echo ${BG[3]:1:1}|tr '[:upper:]' '[:lower:'])"
+
+    if $FLK;then
+        MK=${BG[0]:1:1}${BG[1]:1:1}${BG[2]:1:1}${BG[3]:1:1}
+        echo "second part: $MK"
+    else
+        echo "second part: ${BG[0]:1:1}${BG[1]:1:1}${BG[2]:1:1}$(echo ${BG[3]:1:1}|tr '[:upper:]' '[:lower:'])"
+        MK=${BG[0]:1:1}${BG[1]:1:1}${BG[2]:1:1}${BG[3]:1:1}
+    fi
     echo
     echo "kenngroup  = $KG"
     echo "message key= $MK"
-    #    KG=$(cat $M4TABLE|awk -F\| '{if ($3=='$DAY'){print $2}}'|head -1)
+
     DAY=$(cat $M4TABLE|awk -F\| '$2 ~ /'$KG'/{print $3}'|head -1|tr -d ' ')
     if [ -z "$DAY" ];then
 	echo "kenngroup $KG was not found in $M4TABLE - ABORT"
@@ -109,14 +124,17 @@ if [ "${#2}" -eq 4 ];then
     YM=$(eval date -d "$WHEN" +%Y-%m)
 else
     KG=$(cat $M4TABLE|awk -F\| '$3=='$DAY' {print $2}'|head -1|tr '[:lower:]' '[:upper:]'|tr -d ' ')
-    MK="$(echo $(($RANDOM%26+65)) $(($RANDOM%26+65)) $(($RANDOM%26+65))|awk '{printf "%c%c%c",$1,$2,$3}')"
+    FKG="$(echo $(($RANDOM%26+97))|awk '{printf "%c",$1}')$KG"
     echo "kenngoup   = >$KG<"
-    echo "message key= >$MK<"
-    FKG=$KG
-    FMK=$MK
-    [ ${#FKG} -eq 3 ] && FKG="$(echo $(($RANDOM%26+97))|awk '{printf "%c",$1}')$KG"
-    [ ${#FMK} -eq 3 ] && FMK="$MK$(echo $(($RANDOM%26+97))|awk '{printf "%c",$1}')"
-    
+    if $FLK;then
+        MK="$(echo $(($RANDOM%26+65)) $(($RANDOM%26+65)) $(($RANDOM%26+65)) $(($RANDOM%26+65))|awk '{printf "%c%c%c%c",$1,$2,$3,$4}')"
+        FMK=$MK
+        echo "message key= >$MK<"
+    else
+        MK="$(echo $(($RANDOM%26+65)) $(($RANDOM%26+65)) $(($RANDOM%26+65))|awk '{printf "%c%c%c",$1,$2,$3}')"
+        FMK="$MK$(echo $(($RANDOM%26+97))|awk '{printf "%c",$1}')"
+        echo "message key= >$MK<"
+    fi
     echo "final kenngoup   = $FKG"
     echo "final message key= $FMK"
     echo
