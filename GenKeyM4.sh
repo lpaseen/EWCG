@@ -220,8 +220,12 @@ if [ ${#KG} -eq 3 ];then
 	if [ "${#2}" -ne 4 ];then
 	    echo
 	    echo "#to  hhmm/MM serial groups "
-	    echo "[EWCG${YEAR}TRITON]"
-	    echo -n "BRO "
+            if $FLK;then
+	        echo "[EWCG${YEAR}TRITON] [FLK]"
+            else
+	        echo "[EWCG${YEAR}TRITON]"
+            fi
+	    echo -n "MBR "
 	    TZ=UTC date +%H%M/%d\ ..
 	    echo
 	    echo ${bg[0]}${bg[1]} ${bg[2]}${bg[3]}
